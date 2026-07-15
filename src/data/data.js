@@ -120,4 +120,31 @@ export const content = {
         github: "https://...",
         image: project2,
       },
+
+      {
+        id: 3,
+        name: "Workintech",
+        description: {
+            tr: "Workintech eğitimi sırasında geliştirdiğim, React ve Redux kullanan web uygulaması.",
+            en: "A web application built with React and Redux during my Workintech training.",
+        },
+        tags: ["react", "redux", "axios"],
+        viewSite: "https://proje-linki-buraya-gelecek.vercel.app",
+        github: "https://github.com/kullanıcı-adım/proje-repom",
+        image: project1,
+    },
+
+    {
+        id: 4,
+        name: "Journey",
+        description: {
+          tr: "İkinci proje kısa açıklama buraya yaz.",
+          en: "Short description of the second project.",
+        },
+        tags: ["react", "vercel", "axios"],
+        viewSite: "https://...",
+        github: "https://...",
+        image: project2,
+      },
+
   ]
