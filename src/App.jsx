@@ -1,19 +1,17 @@
-import { useApp } from "./context/AppContext";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 function App() {
-  const { text, lang, theme, toggleLang, toggleTheme } = useApp();
-
   return (
     <div className="min-h-screen bg-white dark:bg-[#252128]">
-      <h1 className="text-4xl font-bold text-purple-700 dark:text-lime-300">
-        {text.hero.title}
-      </h1>
-      <button onClick={toggleLang}>dil: {lang}</button>
-      <button onClick={toggleTheme}>tema: {theme}</button>
+      <div className="bg-[linear-gradient(90deg,#4731D3_80%,#CBF281_80%)] dark:bg-[linear-gradient(90deg,#171043_80%,#211F0B_80%)] px-[10%]">
+        <Header />
+        <Hero />
+      </div>
+      <Skills />
     </div>
   );
 }
 
 export default App;
-
-
