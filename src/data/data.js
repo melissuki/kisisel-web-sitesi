@@ -4,6 +4,8 @@ import reduxIcon from "../assets/icons/redux.png";
 import nodeIcon from "../assets/icons/node.png";
 import vscodeIcon from "../assets/icons/vscode.png";
 import figmaIcon from "../assets/icons/figma.png";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
 
 
 export const content = {
@@ -91,3 +93,31 @@ export const content = {
     { id: 5, name: "REDUX", icon: reduxIcon },
     { id: 6, name: "FIGMA", icon: figmaIcon },
   ];
+
+  export const projects = [
+    {
+        id: 1,
+        name: "Workintech",
+        description: {
+            tr: "Workintech eğitimi sırasında geliştirdiğim, React ve Redux kullanan web uygulaması.",
+            en: "A web application built with React and Redux during my Workintech training.",
+        },
+        tags: ["react", "redux", "axios"],
+        viewSite: "https://proje-linki-buraya-gelecek.vercel.app",
+        github: "https://github.com/kullanıcı-adım/proje-repom",
+        image: project1,
+    },
+
+    {
+        id: 2,
+        name: "Journey",
+        description: {
+          tr: "İkinci proje kısa açıklama buraya yaz.",
+          en: "Short description of the second project.",
+        },
+        tags: ["react", "vercel", "axios"],
+        viewSite: "https://...",
+        github: "https://...",
+        image: project2,
+      },
+  ]
