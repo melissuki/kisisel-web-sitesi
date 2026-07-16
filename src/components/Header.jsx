@@ -15,7 +15,7 @@ export default function Header() {
         >
           {text.header.langToggle}
         </button>
-        <span className="text-[#4731D3] dark:text-white">|</span>
+        <span className="text-[#4731D3] dark:text-white"></span>
         <button
           onClick={toggleTheme}
           aria-label="Tema değiştir"

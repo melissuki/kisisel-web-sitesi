@@ -86,12 +86,12 @@ export const content = {
   };
 
   export const skills = [
-    { id: 1, name: "JAVASCRIPT", icon: jsIcon },
-    { id: 2, name: "NODE", icon: nodeIcon },
-    { id: 3, name: "REACT", icon: reactIcon },
-    { id: 4, name: "VS CODE", icon: vscodeIcon },
-    { id: 5, name: "REDUX", icon: reduxIcon },
-    { id: 6, name: "FIGMA", icon: figmaIcon },
+    { id: 1, name: "JAVASCRIPT", icon: jsIcon, bg: "#F7DF1E"},
+    { id: 2, name: "NODE", icon: nodeIcon, bg: "#1B1B1B" },
+    { id: 3, name: "REACT", icon: reactIcon, bg: "#282C34" },
+    { id: 4, name: "VS CODE", icon: vscodeIcon, bg: "#0078D7" },
+    { id: 5, name: "REDUX", icon: reduxIcon, bg: "#764ABC" },
+    { id: 6, name: "FIGMA", icon: figmaIcon, bg: "#1B1B1B" },
   ];
 
   export const projects = [
