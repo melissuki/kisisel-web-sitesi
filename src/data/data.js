@@ -30,14 +30,13 @@ export const content = {
         info: [
           { label: "Doğum tarihi", value: "27.04.2004" },
           { label: "İkamet Şehri", value: "İstanbul" },
-          { label: "Eğitim Durumu", value: "İstanbul Nişantaşı Üniversitesi, Yazılım Mühendisliği, 2027" },
+          { label: "Eğitim Durumu", value: "İstanbul Nişantaşı Üniversitesi, Yazılım Mühendisliği" },
           { label: "Tercih Ettiği Rol", value: "Frontend, UI" },
         ],
         aboutTitle: "Hakkımda",
         aboutText: [
-          "Merhaba! Ben Melis. Workintech'te full-stack geliştirme eğitimi alıyorum ve kullanıcı deneyimini merkeze alan arayüzler geliştirmeyi seviyorum.",
-          "React ekosisteminde projeler üretiyor, öğrendiğim her yeni konuyu gerçek projelere dönüştürmeye özen gösteriyorum.",
-        ],
+            "Merhaba! Ben Melis Su Kaya, Yazılım Mühendisliği öğrencisiyim. Workintech bünyesinde aldığım full-stack eğitimiyle kullanıcı deneyimini merkeze alan responsive arayüzler geliştiriyorum.",
+            "React, Next.js ve Tailwind CSS ekosisteminde edindiğim teorik birikimi, temiz kod prensipleriyle çalışan güçlü ve dinamik web projelerine dönüştürüyorum." ]
       },
       projects: { title: "Projeler", viewSite: "Siteyi Gör", github: "Github" },
       footer: {
@@ -67,14 +66,13 @@ export const content = {
         info: [
           { label: "Date of birth", value: "27.04.2004" },
           { label: "City of residence", value: "Istanbul" },
-          { label: "Education", value: "Istanbul Nisantasi University, Software Engineering, 2027" },
+          { label: "Education", value: "Istanbul Nisantasi University, Software Engineering" },
           { label: "Preferred role", value: "Frontend, UI" },
         ],
         aboutTitle: "About Me",
         aboutText: [
-          "Hi! I'm Melis. I'm studying full-stack development at Workintech and I love building interfaces that put user experience first.",
-          "I build projects in the React ecosystem and turn everything new I learn into real projects.",
-        ],
+            "Hello! I'm Melis Su Kaya, a Software Engineering student. Through my full-stack training at Workintech, I build responsive, user-centric interfaces.",
+            "I specialize in transforming my knowledge of React, Next.js, and Tailwind CSS into high-performance web projects using clean code principles." ],
       },
       projects: { title: "Projects", viewSite: "View Site", github: "Github" },
       footer: {
