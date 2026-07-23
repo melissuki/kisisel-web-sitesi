@@ -119,7 +119,7 @@ export const content = {
             "Supabase",
             "PostgreSQL",
             "Vite"],
-        viewSite: "https://catstagram-oeshyxutq-melissuky.vercel.app",
+        viewSite: "https://catstagram-crb3kx6ku-melissuky.vercel.app",
         github: "https://github.com/melissuki/catstagram",
         image: project2,
       },
